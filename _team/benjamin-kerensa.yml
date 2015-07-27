@@ -1,0 +1,16 @@
+active: true
+
+github: bkerensa
+image:
+  url: /images/benjamin-kerensa.jpg
+  title: Benjamin Kerensa
+  alt: Benjamin Kerensa
+  attribution:
+layout: profile
+name: Benjamin Kerensa
+role: Project Leader 
+short:
+  <a href="/team/sample-person">Benjamin Kerensa</a> is the founder and project leader of the Glucosio Project.
+twitter: bkerensa
+type: employee
+website: http://benjaminkerensa.com/
