@@ -13,6 +13,7 @@
 
 <!-- Bootstrap Core CSS -->
 <link href="assets/css/frontpage/bootstrap.min.css" rel="stylesheet">
+<script src="assets/js/jquery-2.1.4.min.js"></script>
 
 <!-- Custom CSS -->
 <link href="assets/css/frontpage/landing-page.css" rel="stylesheet">
@@ -36,7 +37,6 @@
   ga('create', 'UA-19702175-24', 'auto');
   ga('send', 'pageview');
 </script>
-
 </head>
 
 <body>
@@ -56,7 +56,7 @@
         </nav>
         <nav class="tagline">
             
-            <a href="/about" class="btn btn-outline">Learn More</a>
+            <a href="/about" class="btn btn-flat">Learn More</a>
         </nav>
     </header>
 </section>
@@ -75,13 +75,13 @@
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
     <li>
-        <a href="https://twitter.com/glucosioapp" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+        <a href="https://twitter.com/glucosioapp" class="btn btn-default btn-lg btn-white" data-ripple-color="#333333"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
     </li>
     <li>
-        <a href="https://github.com/glucosio" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+        <a href="https://github.com/glucosio" class="btn btn-default btn-lg btn-white" data-ripple-color="#333333"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
     </li>
     <li>
-        <a href="https://www.facebook.com/glucosioproject" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+        <a href="https://www.facebook.com/glucosioproject" class="btn btn-default btn-lg btn-white" data-ripple-color="#333333"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
     </li>
 </ul>
                     </div>
@@ -105,6 +105,7 @@
                     <h2 class="section-heading">What is Glucosio?</h2>
                     <p class="lead">Glucosio is a open source project focus on creating open source tools for Diabetes. We believe with open tools people with Diabetes can improve their health outcomes.</p>
                     <p class="lead">Unlike other apps for Diabetes we intend to create a feature rich experience with third-party integrations, tips and the ability to support diabetes research.</p>
+                    <button class="btn btn-default" data-ripple-color="#F0F0F0">Custom ripple</button>
                   </div>
                  <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                      <img class="img-responsive" src="images/android.png" alt="Android Screenshot">
@@ -148,13 +149,13 @@
                 <div class="col-lg-6">
                     <ul class="list-inline banner-social-buttons">
     <li>
-        <a href="https://twitter.com/glucosioapp" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+        <a href="https://twitter.com/glucosioapp" class="btn btn-default btn-lg btn-white" data-ripple-color="#333333"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
     </li>
     <li>
-        <a href="https://github.com/glucosio" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+        <a href="https://github.com/glucosio" class="btn btn-default btn-lg btn-white" data-ripple-color="#333333"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
     </li>
     <li>
-        <a href="https://www.facebook.com/glucosioproject" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+        <a href="https://www.facebook.com/glucosioproject" class="btn btn-default btn-lg btn-white" data-ripple-color="#333333"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
     </li>
 </ul>
                 </div>
@@ -177,13 +178,16 @@
             </div>
         </div>
     </footer>
-
-    <!-- jQuery Version 1.11.0 -->
-    <script src="assets/js/jquery-1.11.0.js"></script>
-
+    <!-- Bootstrap Material Elements -->
+    <link rel="stylesheet" href="assets/css/material.min.css">
+    <link rel="stylesheet" href="assets/css/ripples.min.css">
+    <script src="assets/js/ripples.min.js"></script>
+    <script src="assets/js/material.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="assets/js/bootstrap.min.js"></script>
-
+        <script>
+    // Enable material animations
+    $.material.init();
+    </script>
 </body>
-
 </html>
